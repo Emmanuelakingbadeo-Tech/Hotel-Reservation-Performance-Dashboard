@@ -1,92 +1,120 @@
 🏨 Hotel Reservation Performance Dashboard
 
+End-to-End Business Intelligence Project | SQL • Power BI • DAX • Power Query • Excel
+
+⸻
+
+## 📊 Dashboard Preview
+
+![Reservation Performance Dashboard](Reservation_Performance_Dashboard.png)
+
+⸻
+
+## 📈 Executive Findings & Strategic Recommendations
+
+![Executive Findings](Executive_Findings_Recommendations.png).
+
+⸻
+
+📑 Table of Contents
+
+* Project Overview
+* Business Problem
+* Business Objectives
+* Tools & Technologies
+* Project Workflow
+* Business Questions Answered
+* Dashboard Features
+* Key Business Insights
+* Business Impact
+* Skills Demonstrated
+* Repository Structure
+* Conclusion
+
+⸻
+
 📌 Project Overview
 
-This project presents an end-to-end Business Intelligence solution developed to help hotel management monitor reservation performance and support data-driven decision-making.
+This project demonstrates an end-to-end Business Intelligence solution designed to help hotel management monitor reservation performance and make informed business decisions.
 
-Using SQL, Power BI, DAX, Power Query, and Excel, raw hotel reservation data was transformed into interactive dashboards and executive-level insights. The analysis focuses on booking trends, customer behaviour, cancellation risks, and operational opportunities that support strategic business decisions.
+Using SQL, Power BI, DAX, Power Query, and Excel, raw reservation data was transformed into an interactive dashboard supported by executive insights and strategic recommendations.
 
-⸻
-
-🎯 Business Problem
-
-Hotel management needs timely insights into reservation performance to improve occupancy, optimize pricing, reduce cancellations, and better understand customer behaviour.
-
-Without meaningful analysis, it becomes difficult to:
-
-* Monitor booking trends.
-* Identify revenue leakage caused by cancellations.
-* Understand customer preferences.
-* Improve operational planning.
-* Make informed business decisions.
-
-This project addresses these challenges by transforming raw reservation data into actionable business intelligence.
+The project focuses on identifying booking trends, customer preferences, cancellation risks, and operational opportunities that can improve overall business performance.
 
 ⸻
 
-🎯 Project Objectives
+🏨 Business Problem
 
-* Analyse hotel reservation performance.
-* Identify booking trends across different periods.
-* Evaluate cancellation behaviour and business impact.
-* Understand customer preferences by room type and meal plan.
-* Build an interactive executive dashboard.
-* Deliver strategic recommendations for management.
+Hotels generate large volumes of reservation data every day. Without proper analysis, management may struggle to identify booking trends, understand customer behaviour, monitor cancellations, and make informed operational decisions.
+
+This project was developed to transform raw reservation data into meaningful insights that support strategic planning and improve decision-making.
+
+⸻
+
+🎯 Business Objectives
+
+* Monitor overall reservation performance.
+* Analyse booking trends over time.
+* Measure cancellation rates and potential revenue risk.
+* Identify the most preferred room types and meal plans.
+* Understand booking channel performance.
+* Support management with interactive dashboards and actionable recommendations.
 
 ⸻
 
 🛠️ Tools & Technologies
 
 Tool	Purpose
-SQL	Business query analysis
-Power BI	Dashboard development
-DAX	KPI calculations
-Power Query	Data cleaning & transformation
-Microsoft Excel	Data source
+SQL	Business analysis and querying
+Power BI	Interactive dashboard development
+DAX	KPI calculations and measures
+Power Query	Data cleaning and transformation
+Microsoft Excel	Source dataset
 
 ⸻
 
-📊 Project Workflow
+🔄 Project Workflow
 
-Raw Dataset
-      │
-      ▼
+Raw Reservation Dataset
+          │
+          ▼
 SQL Business Analysis
-      │
-      ▼
-Power Query (Data Cleaning)
-      │
-      ▼
+          │
+          ▼
+Power Query
+(Data Cleaning & Transformation)
+          │
+          ▼
 Data Modelling
-      │
-      ▼
+          │
+          ▼
 DAX Measures & KPIs
-      │
-      ▼
-Interactive Dashboard
-      │
-      ▼
-Executive Findings
-      │
-      ▼
-Strategic Recommendations
+          │
+          ▼
+Interactive Power BI Dashboard
+          │
+          ▼
+Executive Insights
+          │
+          ▼
+Business Recommendations
 
 ⸻
 
 ❓ Business Questions Answered
 
-The SQL analysis answered key business questions, including:
+The SQL analysis addressed key business questions, including:
 
-* What is the total number of reservations?
-* What is the cancellation rate?
+* What is the total number of hotel reservations?
+* What percentage of reservations were cancelled?
 * What is the average room price?
 * What is the average booking lead time?
-* Which month recorded the highest reservation demand?
+* Which month recorded the highest booking demand?
 * Which booking channel generated the highest reservations?
 * Which room type is most preferred?
 * Which meal plan is most popular?
-* What are the weekday vs weekend stay patterns?
-* How do booking confirmations compare with cancellations?
+* How do weekday and weekend stays compare?
+* What opportunities exist to improve hotel performance?
 
 ⸻
 
@@ -94,96 +122,102 @@ The SQL analysis answered key business questions, including:
 
 Reservation Performance Dashboard
 
-The dashboard provides management with visibility into:
+The dashboard includes:
 
 * Total Reservations
 * Cancellation Rate
 * Average Daily Rate (ADR)
 * Average Booking Lead Time
 * Monthly Reservation Trend
-* Bookings by Market Segment
-* Bookings by Room Type
+* Booking Distribution by Market Segment
 * Reservation Status Analysis
-* Guest Meal Plan Preferences
-* Weekday vs Weekend Stay Demand
+* Room Type Demand
+* Meal Plan Preferences
+* Weekday vs Weekend Stay Analysis
 
 ⸻
 
-Executive Findings & Strategic Recommendations
+Executive Findings
 
-The report highlights:
+The executive summary highlights:
 
-* Revenue & Demand
-* Booking Channel Performance
-* Revenue Risk
-* Guest Demand Patterns
-* Forecasting Opportunities
+* Booking demand trends
+* Customer preferences
+* Revenue risk from cancellations
+* Market performance
+* Operational performance
 
-alongside strategic recommendations focused on:
+⸻
 
-* Revenue Optimization
-* Cancellation Management
-* Capacity Planning
-* Forecasting & Planning
+Strategic Recommendations
+
+Recommendations focus on:
+
+* Revenue optimisation
+* Cancellation reduction strategies
+* Marketing channel performance
+* Capacity planning
+* Demand forecasting
 
 ⸻
 
 💡 Key Business Insights
 
-* Reservation demand remained strong throughout the year, with October recording the highest booking volume.
-* Online booking channels generated the majority of reservations, highlighting their importance in customer acquisition.
-* Nearly 30% of reservations were cancelled, representing a significant opportunity to improve revenue retention.
-* Room Type 1 and Meal Plan 1 were the most preferred customer choices.
-* Average booking lead time provides valuable opportunities for demand forecasting and operational planning.
+* Reservation demand remained stable throughout the year, with October recording the highest booking volume.
+* Online bookings generated the highest number of reservations, making digital channels the strongest source of customer acquisition.
+* Nearly 30% of reservations were cancelled, representing a significant opportunity to reduce revenue leakage.
+* Room Type 1 and Meal Plan 1 were consistently the most popular customer choices.
+* Booking lead time provides valuable insight for forecasting demand and improving operational planning.
 
 ⸻
 
-Skills Demonstrated
+📈 Business Impact
+
+The insights generated from this project can help hotel management:
+
+* Improve pricing strategies during periods of high demand.
+* Reduce revenue loss caused by reservation cancellations.
+* Allocate rooms more efficiently.
+* Strengthen digital marketing channels.
+* Improve forecasting and resource planning.
+* Support data-driven decision-making across hotel operations.
+
+⸻
+
+🚀 Skills Demonstrated
 
 * SQL Query Writing
 * Data Cleaning
 * Data Transformation
-* Power Query
 * Data Modelling
-* DAX
+* DAX Measures
 * KPI Development
-* Dashboard Design
-* Business Intelligence
+* Power BI Dashboard Design
 * Executive Reporting
+* Business Intelligence
 * Data Storytelling
+* Business Analysis
 
 ⸻
 
-🖼️ Dashboard Preview
+📁 Repository Structure
 
-Reservation Performance Dashboard
-
-Upload Dashboard_Page1.png here.
-
-⸻
-
-Executive Findings & Strategic Recommendations
-
-Upload Executive_Findings_Page2.png here.
-
-⸻
-
-📁 Repository Contents
-
-📂 Hotel-Reservation-Performance-Dashboard
+Hotel-Reservation-Performance-Dashboard
 │
 ├── README.md
-├── Hotel_Reservation_Dashboard.pbix
+├── Hotel_Reservation_Performance_Dashboard.pbix
 ├── Hotel_Reservation_SQL_Analysis.sql
-├── Hotel_Reservation_Dataset.xlsx
-├── Dashboard_Page1.png
-└── Executive_Findings_Page2.png
+├── Hotel_Reservation_Database.sql
+├── Reservation_Performance_Dashboard.png
+└── Executive_Findings_Recommendations.png
 
 ⸻
 
 📌 Conclusion
 
-This project demonstrates how SQL, Power BI, DAX, and Power Query can be combined to transform raw reservation data into actionable business insights. Beyond visualization, the project emphasizes data storytelling and executive reporting to support strategic decision-making in the hospitality industry.
+This project demonstrates the complete Business Intelligence lifecycle—from querying raw reservation data with SQL to transforming and modelling the data, building interactive Power BI dashboards, and delivering executive insights with actionable business recommendations.
+
+The goal was not only to build a dashboard but to communicate meaningful insights that support strategic decision-making in the hospitality industry.
 
 ⸻
 
@@ -191,8 +225,6 @@ This project demonstrates how SQL, Power BI, DAX, and Power Query can be combine
 
 Emmanuel Akingbade
 
-Aspiring Data Analyst passionate about using data to solve business problems and support data-driven decision-making.
+Aspiring Data Analyst with a passion for transforming raw data into actionable business insights through SQL, Power BI, DAX, Power Query, and Excel.
 
-Skills: SQL • Power BI • DAX • Power Query • Excel
-
-If you have feedback or suggestions, I’d be glad to hear 
+Thank you for visiting this repository. Feedback and suggestions are always welcome
